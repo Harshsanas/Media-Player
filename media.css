@@ -1,0 +1,15 @@
+.canvas {
+  background: black;
+  margin-top: 100px;
+  top: 0;
+  left: 0;
+}
+.buttonDiv {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
