@@ -4,21 +4,18 @@ body {
   }
   #main {
     width: 95vw;
-    max-width: 1300px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     align-items: center;
   }
 
-  /* canvas bars styling */
 
   canvas {
-    margin: 150px auto 50px;
-    padding: 100px auto;
+        padding: 100px auto;
 
   }
 
-  
   #audio-controllers {
     display: flex;
     align-items: center;
@@ -29,7 +26,7 @@ body {
 
   #sound img,
   #play-pause {
-    border: 1px solid #a4b7bb;
+    border: 1px solid skyblue;
     border-radius: 10px;
     background: transparent;
     border-radius: 100px;
