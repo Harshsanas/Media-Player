@@ -1,15 +1,43 @@
-.canvas {
-  background: black;
-  margin-top: 100px;
-  top: 0;
-  left: 0;
-}
-.buttonDiv {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.buttons {
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #main {
+    width: 95vw;
+    max-width: 1300px;
+    margin: auto;
     display: flex;
-    flex-direction: row;
-}
+    align-items: center;
+  }
+
+  /* canvas bars styling */
+
+  canvas {
+    margin: 150px auto 50px;
+    padding: 100px auto;
+
+  }
+
+  
+  #audio-controllers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #sound img,
+  #play-pause {
+    border: 1px solid #a4b7bb;
+    border-radius: 10px;
+    background: transparent;
+    border-radius: 100px;
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+  }
+  #play-pause img {
+    width: 50px;
+    height: 50px;
+  }

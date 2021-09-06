@@ -8,20 +8,25 @@
   <script src="https://unpkg.com/wavesurfer.js"></script>
 
   <body>
-
-    <div class="buttonDiv">
-      <h2>AUDIO VISUALIZER USING CANVAS</h2>
-      <div class="button">
-        <button id="start">&#9658;</button>
-        &#9208;
-        <button id="stop">&#9611</button>
-        <button id="reset"></button>
-      </div>
+    <div id="main">
+      <canvas id="canvas-bars"></canvas>
     </div>
 
-    <canva class="canvas"> </canva>
+    <!-- creating button controllers -->
+    <div id="audio-controllers">
+      <button id="play-pause">
+        <img
+          id="ctrl-icon"
+          src="https://icon-library.com/images/android-triangle-icon/android-triangle-icon-7.jpg"
+          alt=""
+        />
+      </button>
 
-    <div class="audioTrack"></div>
+      <!-- creating audio tag -->
+      <audio id="audio">
+        <source src="./assets/flute_music.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
 
   <script type="text/javascript" src="media.js"></script>
   </body>
